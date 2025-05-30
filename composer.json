@@ -11,6 +11,7 @@
   "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "^2.0.0",
+    "yidas/yii2-bower-asset": "*",
     "symfony/var-dumper": "^7.0.0"
   },
   "autoload": {
