@@ -1,0 +1,28 @@
+{
+  "name": "silencenjoyer/yii2-dump-active-query",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "dump",
+    "dev"
+  ],
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "symfony/var-dumper": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Silencenjoyer\\DumpActiveQuery\\": "src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "scripts": {
+  }
+}
